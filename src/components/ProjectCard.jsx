@@ -18,7 +18,6 @@ function ProjectCard({ img, url, github, title, text }) {
           <a href={github}>
             <FaGithubSquare className=" h-8 text-slate-500 hover:text-black duration-300" />
           </a>
-         
         </div>
       </div>
     </article>

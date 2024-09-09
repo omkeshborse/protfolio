@@ -9,7 +9,7 @@ function Hero() {
             I&apos;m omkesh
           </h1>
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wider">
-            Front-End Developer
+            FullStack Developer(MERN)
           </p>
 
           <p className="mt-2 text-lg text-slate-700 capitalize tracking-wider ">

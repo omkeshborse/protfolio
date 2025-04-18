@@ -16,6 +16,9 @@ import {
   SiSpringboot,
   SiTailwindcss,
 } from "react-icons/si";
+import { SiNestjs } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
+
 import { TbBrandRedux } from "react-icons/tb";
 
 export const links = [
@@ -26,6 +29,30 @@ export const links = [
 ];
 
 export const skills = [
+  {
+    id: nanoid(),
+    title: "Node JS",
+    icon: <FaNode className="h-16 w-16 text-emerald-500" />,
+    text: "Proficient in Node.js, building scalable server-side applications with JavaScript runtime environment.",
+  },
+  {
+    id: nanoid(),
+    title: "Express JS",
+    icon: <SiExpress className="h-16 w-16 text-emerald-500" />,
+    text: "Experienced with Express.js, developing robust APIs and server-side logic for web applications.",
+  },
+  {
+    id: nanoid(),
+    title: "Nest js",
+    icon: <SiNestjs className="h-16 w-16 text-emerald-500" />,
+    text: "Built scalable and maintainable server-side applications using NestJS, with a modular architecture and robust dependency injection.",
+  },
+  {
+    id: nanoid(),
+    title: "AWS",
+    icon: <FaAws className="h-16 w-16 text-emerald-500" />,
+    text: "Experienced in deploying and managing cloud infrastructure using AWS services like EC2, S3, RDS, and IAM to ensure scalability, security, and high availability.",
+  },
   {
     id: nanoid(),
     title: "HTML&CSS",
@@ -55,18 +82,6 @@ export const skills = [
     title: "Tailwindcss",
     icon: <SiTailwindcss className="h-16 w-16 text-emerald-500" />,
     text: "Skilled in Tailwind CSS, creating highly customizable and modern UIs with utility-first CSS framework.",
-  },
-  {
-    id: nanoid(),
-    title: "Node JS",
-    icon: <FaNode className="h-16 w-16 text-emerald-500" />,
-    text: "Proficient in Node.js, building scalable server-side applications with JavaScript runtime environment.",
-  },
-  {
-    id: nanoid(),
-    title: "Express JS",
-    icon: <SiExpress className="h-16 w-16 text-emerald-500" />,
-    text: "Experienced with Express.js, developing robust APIs and server-side logic for web applications.",
   },
   {
     id: nanoid(),

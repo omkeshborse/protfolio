@@ -6,17 +6,19 @@ function About() {
       <div className="align-element grid md:grid-cols-2 items-center gap-16">
         <img src={aboutSvg} alt="about" className="w-full h-64" />
         <article>
-          <SectionTitle text={"MERN Stack Developer"} />
+          <SectionTitle text={"🚀 Full Stack Developer (Backend)"} />
           <p className=" text-slate-600 mt-8 leading-loose">
-            I am a passionate MERN Stack Developer with expertise in MongoDB,
-            Express.js, React.js, and Node.js. My technical skills include
-            front-end technologies such as JavaScript (ES6+), React.js, HTML,
-            CSS, Tailwind, and Redux. On the back-end, I am proficient in
-            Node.js, Express.js, and Mongoose, and have experience with Spring
-            and Spring Boot. I also work with JavaScript and Java, and utilize
-            tools like Git, GitHub, Postman, and VS Code. I am skilled in
-            database management with MongoDB and SQL and excel in
-            problem-solving and communication.
+            I’m a Full Stack Software Developer with strong expertise in Java,
+            Spring Boot, and the MERN Stack (MongoDB, Express.js, React.js,
+            Node.js). I specialize in building scalable backend systems and
+            efficient front-end interfaces, driven by a passion for clean code
+            and seamless user experiences. With hands-on experience in NestJS,
+            PostgreSQL, MongoDB, AWS (EC2, S3), and Agile methodologies, I’ve
+            developed and deployed robust web applications that enhance
+            performance, reduce latency, and scale effectively. Whether it’s
+            crafting high-performance APIs or optimizing system architecture, I
+            bring a problem-solving mindset, strong communication skills, and a
+            commitment to delivering quality in every project I work on.
           </p>
         </article>
       </div>
